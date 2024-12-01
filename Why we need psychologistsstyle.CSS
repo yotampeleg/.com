@@ -1,0 +1,46 @@
+a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    font-size: 25px;
+}
+h1 {
+    text-align: right;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    font-size: 50px;
+}
+.right-text {
+    text-align: right;
+}
+.upwindowstyle {
+    padding: 50px;
+    background: linear-gradient(to right,rgb(232, 196, 118),rgb(219, 168, 73),rgb(223, 143, 39));
+}
+.buttonstyle {
+    display: block;
+    color: rgb(160, 112, 35);
+    width: fit-content;
+    padding: 10px 20px;
+    background: linear-gradient(to right,rgb(241, 224, 191),rgb(232, 204, 121),rgb(247, 186, 65));
+    text-align: center;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.centerbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+p {
+    text-align: right;
+    font-size: 25px;
+    color: rgb(151, 123, 62);
+}
+html {
+    background-color: antiquewhite;
+}
+.hover:hover {
+    transform: scale(1.3);
+    background: linear-gradient(to left,rgb(241, 224, 191),rgb(232, 204, 121),rgb(247, 186, 65));
+}

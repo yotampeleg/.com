@@ -1,0 +1,40 @@
+a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+h1 {
+    text-align: right;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    font-size: 50px;
+}
+.right-text {
+    text-align: right;
+}
+.upwindowstyle {
+    padding: 50px;
+    background: linear-gradient(to right,rgb(232, 196, 118),rgb(219, 168, 73),rgb(223, 143, 39));
+}
+p {
+    text-align: right;
+    font-size: 25px;
+    color: rgb(95, 53, 6);
+}
+html {
+    background-color: antiquewhite;
+}
+.upspace {
+    margin-top: 100px;
+}
+.stylebutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: linear-gradient(to right,antiquewhite,rgb(179, 121, 22),antiquewhite);
+}
+.bigsmall:hover{
+    transform: scale(1.1);
+}
